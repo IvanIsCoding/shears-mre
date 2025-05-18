@@ -10,4 +10,3 @@ nightly = ["hashbrown/nightly"]
 # Dependencies
 [dependencies]
 indexmap = "2.1.0"
-hashbrown = "0.14.3"
