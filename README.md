@@ -10,10 +10,12 @@ Before, run:
 cargo +nightly  test --features nightly
 ```
 
+The tests will pass.
+
 Then run:
 
 ```bash
-cargo +nightly  test --features nightly
+cargo shear --fix
 ```
 
 It will generate a diff removing hashbrown:
