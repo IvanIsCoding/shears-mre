@@ -18,6 +18,8 @@ Then run:
 cargo shear --fix
 ```
 
+note: running `cargo +nightly  shear --expand --fix` yields the same diff
+
 It will generate a diff removing hashbrown:
 ```
 ➜  shears-mre git:(main) ✗ cargo shear --fix                      
